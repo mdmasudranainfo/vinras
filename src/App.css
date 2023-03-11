@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,78 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* my css code  */
+
+.servicesBox {
+  transition: 0.5s;
+}
+.servicesBox:hover {
+  background-color: #f94d1c;
+  color: white;
+}
+.servicesBox img {
+  border: 0.5px solid white;
+  border-radius: 50%;
+}
+
+.servicesBox:hover img {
+}
+
+.radial-progress.text-primary.text-3xl.font-semibold {
+  transform: rotate(87deg);
+}
+span.hello {
+  transform: rotate(-88deg);
+}
+
+.ServiceTitles {
+  margin-top: 4px;
+  margin-left: 5px;
+}
+.ServiceTitles2 {
+  margin-top: 4px;
+  margin-right: 5px;
+}
+
+/* body {
+  max-width: 1620px;
+  margin: 0 auto;
+} */
+svg.slick-arrow.slick-prev {
+  background: white;
+  color: #f94d1c;
+  font-size: 50px !important;
+  position: absolute;
+  top: 78px;
+  left: 90%;
+  width: 35px;
+  height: 35px;
+}
+
+svg.slick-arrow.slick-prev:hover {
+  background: #f94d1c;
+  color: white;
+}
+svg.slick-arrow.slick-next {
+  background: #fff;
+  color: #f94d1c;
+  font-size: 50px !important;
+  top: 78px;
+  left: 95%;
+  width: 35px;
+  height: 35px;
+}
+svg.slick-arrow.slick-next:hover {
+  background: #f94d1c;
+  color: white;
+}
+.slick-slider {
+  position: static !important;
+}
+.teamImg {
+  border-radius: 100px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
