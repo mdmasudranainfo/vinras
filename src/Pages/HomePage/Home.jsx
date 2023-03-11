@@ -7,6 +7,8 @@ import LiveDiscussion from "../../Components/LiveDiscussion/LiveDiscussion";
 import MakeAgency from "../../Components/MakeAgency/MakeAgency";
 import MeetOutTeam from "../../Components/MeetOutTeam/MeetOutTeam";
 import PopularServices from "../../Components/PopularServices/PopularServices";
+import SuccessExperience from "../../Components/SuccessExperience/SuccessExperience";
+import Testimonial from "../../Components/Testimonial/Testimonial";
 
 const Home = () => {
   return (
@@ -20,6 +22,8 @@ const Home = () => {
       <MakeAgency />
       <HomeCounter />
       <MeetOutTeam />
+      <SuccessExperience />
+      <Testimonial />
     </div>
   );
 };

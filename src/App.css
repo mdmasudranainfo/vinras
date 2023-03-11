@@ -1,3 +1,7 @@
+boduy {
+  background-color: white;
+}
+
 /* .App {
   text-align: center;
 }
@@ -49,9 +53,6 @@
 .servicesBox img {
   border: 0.5px solid white;
   border-radius: 50%;
-}
-
-.servicesBox:hover img {
 }
 
 .radial-progress.text-primary.text-3xl.font-semibold {
@@ -109,4 +110,41 @@ svg.slick-arrow.slick-next:hover {
   border-radius: 100px;
   border-top-left-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+.htisIs {
+  border-radius: 100px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.507), transparent);
+  opacity: 0;
+}
+
+.htisIs {
+  transition: 0.5s;
+  overflow: hidden;
+  transform: translate(-50px, 0);
+  overflow: hidden;
+}
+
+.teamName {
+  transform: translate(0, 50px);
+}
+
+.teamBox:hover .htisIs {
+  opacity: 1 !important;
+  transition: 0.5s;
+  transform: translate(0, 0);
+}
+.teamBox:hover .teamName {
+  opacity: 1 !important;
+  transition: 0.5s;
+  transform: translate(0, 0);
+}
+.teamBox {
+  overflow: hidden;
+}
+
+/* progress bar */
+.CircularProgressbar .CircularProgressbar-path {
+  stroke: #f94d1c !important;
 }
