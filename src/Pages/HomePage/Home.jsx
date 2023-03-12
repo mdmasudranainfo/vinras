@@ -3,8 +3,10 @@ import React from "react";
 import HeroHome from "../../Components/HeroHome/HeroHome";
 import HomeCounter from "../../Components/HomeCounter/HomeCounter";
 import HomeServices from "../../Components/HomeServices/HomeServices";
+import LatestBlog from "../../Components/LatestBlog/LatestBlog";
 import LiveDiscussion from "../../Components/LiveDiscussion/LiveDiscussion";
 import MakeAgency from "../../Components/MakeAgency/MakeAgency";
+import MapAria from "../../Components/MapAria/MapAria";
 import MeetOutTeam from "../../Components/MeetOutTeam/MeetOutTeam";
 import PopularServices from "../../Components/PopularServices/PopularServices";
 import SuccessExperience from "../../Components/SuccessExperience/SuccessExperience";
@@ -24,6 +26,8 @@ const Home = () => {
       <MeetOutTeam />
       <SuccessExperience />
       <Testimonial />
+      <MapAria />
+      <LatestBlog />
     </div>
   );
 };

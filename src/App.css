@@ -148,3 +148,12 @@ svg.slick-arrow.slick-next:hover {
 .CircularProgressbar .CircularProgressbar-path {
   stroke: #f94d1c !important;
 }
+
+.NewsBox img {
+  transition: 0.5s !important;
+}
+
+.NewsBox:hover img {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
