@@ -52,7 +52,9 @@ const MakeAgency = () => {
         <h2 className="text-primary text-lg font-semibold">
           How Can Help You{" "}
         </h2>
-        <h1 className="text-5xl font-bold mt-8">We Make Bright Agency</h1>
+        <h1 className="md:text-5xl text-2xl font-bold mt-8">
+          We Make Bright Agency
+        </h1>
 
         {/*  */}
 

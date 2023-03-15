@@ -97,7 +97,7 @@ const HomeServices = () => {
               </span>
             </p>
 
-            <div className="grid grid-cols-2 mt-12">
+            <div className="grid xl:grid-cols-2 grid-cols-1 mt-12 gap-3">
               <div className=" flex justify-around items-center">
                 <div
                   className="radial-progress text-primary text-3xl font-semibold"
@@ -134,8 +134,6 @@ const HomeServices = () => {
         </div>
 
         {/* about us end */}
-
-        {/* prograss bar  */}
 
         {/* prograss bar end */}
       </div>

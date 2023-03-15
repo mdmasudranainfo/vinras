@@ -10,7 +10,7 @@ import { RxExit } from "react-icons/rx";
 const Footer = () => {
   return (
     <div className="bg-[url('https://i.ibb.co/N25FFHB/footer-bg.png')] bg-no-repeat bg-center bg-cover text-white mt-24">
-      <div className="container mx-auto py-24">
+      <div className="container mx-auto py-24 p-2">
         <div className=" md:flex block justify-between">
           <div className="">
             <img src="https://i.ibb.co/8xGX9vT/logo.png" alt="" />
@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
 
         {/* grid  */}
-        <div className="grid lg:grid-cols-4 grid-cols-2 mt-24">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 mt-24">
           <div className="">
             <h2 className="mb-7 uppercase font-bold">Explore</h2>
             <p className="mb-7 text-[#878c8f]">About</p>
@@ -69,13 +69,24 @@ const Footer = () => {
               <input
                 type="email"
                 placeholder="Email address"
-                className="input w-full p-5 rounded-none"
+                className="input w-full p-5 rounded-none text-black"
               />
               <div className="bg-primary p-4 cursor-pointer">
                 <RxExit className="" />
               </div>
             </div>
           </div>
+        </div>
+        <div className="divider"></div>
+
+        {/* copyright */}
+
+        <div className="text-[#878c8f] md:flex block justify-between  mt-10">
+          <p>
+            Copyright © 2022 <span className="text-primary">Vinras</span> All
+            Rights Reserved.
+          </p>
+          <p className="md:mt-0 mt-5">Terms & Condition | Privacy | Support</p>
         </div>
       </div>
     </div>

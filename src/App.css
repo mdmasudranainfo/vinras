@@ -157,3 +157,23 @@ svg.slick-arrow.slick-next:hover {
   transform: scale(1.1);
   transition: 0.5s;
 }
+
+/* baranding  */
+.BandingBox:hover .bandingImg1 {
+  display: none;
+}
+.BandingBox .bandingImg2 {
+  display: none;
+}
+.BandingBox:hover .bandingImg2 {
+  display: block;
+}
+
+@media only screen and (max-width: 768px) {
+  svg.slick-arrow.slick-next {
+    left: 85%;
+  }
+  svg.slick-arrow.slick-prev {
+    left: 75%;
+  }
+}
