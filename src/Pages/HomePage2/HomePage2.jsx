@@ -2,6 +2,7 @@ import React from "react";
 import AboutUs from "../../Components/AboutUs/AboutUs";
 import BlogTwo from "../../Components/BlogTwo/BlogTwo";
 import Brands from "../../Components/Brands/Brands";
+import Case from "../../Components/Case/Case";
 import ExclusiveSkill from "../../Components/ExclusiveSkill/ExclusiveSkill";
 import FAQTwo from "../../Components/FaqTow/FaqTow";
 import OurServices from "../../Components/OurServices/OurServices";
@@ -17,6 +18,7 @@ const HomePage2 = () => {
       <SliderHome2 />
       <AboutUs />
       <OurServices />
+      <Case />
       <ExclusiveSkill />
       <FAQTwo />
       <TeamTwo />

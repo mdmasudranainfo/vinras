@@ -1,4 +1,5 @@
 import React from "react";
+import Finance from "../../Components/Finance/Finance";
 // import Finance from "../../Components/Finance/Finance";
 import HeroHome from "../../Components/HeroHome/HeroHome";
 import HomeCounter from "../../Components/HomeCounter/HomeCounter";
@@ -20,6 +21,7 @@ const Home = () => {
 
       <PopularServices />
       {/* finance */}
+      <Finance />
       <LiveDiscussion />
       <MakeAgency />
       <HomeCounter />
