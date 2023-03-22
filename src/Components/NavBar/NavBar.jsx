@@ -197,7 +197,7 @@ const Navbar = () => {
                       </div>
                     </li>
                     <li className="nav-items">
-                      <Link className="nav-links" to="/page">
+                      <Link className="nav-links" to="/HomePage2">
                         page
                       </Link>
                     </li>
