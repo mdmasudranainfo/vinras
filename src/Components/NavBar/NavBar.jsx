@@ -184,12 +184,12 @@ const Navbar = () => {
                         }`}>
                         <ul className="triangle-top">
                           <li className="nav-items">
-                            <Link className="nav-links" to="/data">
-                              home 2
+                            <Link className="nav-links" to="/">
+                              home 1
                             </Link>
                           </li>
                           <li>
-                            <Link className="nav-links" to="/data">
+                            <Link className="nav-links" to="/home2">
                               home 2
                             </Link>
                           </li>
